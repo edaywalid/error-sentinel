@@ -29,6 +29,12 @@ Error Sentinel is a Go-based web server designed to gracefully handle errors and
 
 ---
 
+## demo 
+
+![Demo](./assets/demo.gif)
+
+---
+
 ## File Structure
 
 ```
