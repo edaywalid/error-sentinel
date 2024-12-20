@@ -42,8 +42,6 @@ error-sentinel/
 │   │   └── source.go        # Handler for viewing source files
 │   ├── middleware/
 │   │   └── recovery.go     # Middleware for panic recovery
-│   ├── routes/
-│   │   └── router.go       # Router configuration
 │   ├── utils/
 │   │   └── stacktrace.go   # Formatting stack traces
 ├── go.mod                       # Go module file
