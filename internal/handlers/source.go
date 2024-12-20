@@ -42,7 +42,7 @@ func renderSource(w http.ResponseWriter, r *http.Request, content string, highli
 
 	for i, line := range lines {
 		if i+1 == highlightLine {
-			fmt.Fprintf(w, `<span id="highlighted-line" style="background-color: green">%5d: %s</span><br>`, i+1, template.HTMLEscapeString(line))
+			fmt.Fprintf(w, `<span id="highlighted-line" style="background-color: yellow">%5d: %s</span><br>`, i+1, template.HTMLEscapeString(line))
 		} else {
 			fmt.Fprintf(w, "%5d: %s<br>", i+1, template.HTMLEscapeString(line))
 		}
